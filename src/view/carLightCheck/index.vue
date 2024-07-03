@@ -1,8 +1,26 @@
 <script setup></script>
 
 <template>
-  <div class="top"></div>
-    
+  <div class="container">
+    <div class="top">
+    </div>
+    <div class="middle"></div>
+  </div>
 </template>
 
-<style></style>
+<style>
+.container {
+  position: relative;
+  background-color: #999;
+}
+
+.top {
+  height: 60px;
+  background-color: #ff5a01;
+}
+
+.middle {
+  margin-top: 60px;
+  background-color: pink;
+}
+</style>
