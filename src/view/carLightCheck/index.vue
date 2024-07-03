@@ -1,15 +1,26 @@
 <script setup></script>
 
 <template>
-  <div>this is carlightcheck page</div>
-  <div class="mb-4">
-    <el-button>Default</el-button>
-    <el-button type="primary">Primary</el-button>
-    <el-button type="success">Success</el-button>
-    <el-button type="info">Info</el-button>
-    <el-button type="warning">Warning</el-button>
-    <el-button type="danger">Danger</el-button>
+  <div class="container">
+    <div class="top">
+    </div>
+    <div class="middle"></div>
   </div>
 </template>
 
-<style></style>
+<style>
+.container {
+  position: relative;
+  background-color: #999;
+}
+
+.top {
+  height: 60px;
+  background-color: #ff5a01;
+}
+
+.middle {
+  margin-top: 60px;
+  background-color: pink;
+}
+</style>
