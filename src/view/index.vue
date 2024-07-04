@@ -28,39 +28,35 @@ export default {
 
     }
   },
-}
+  methods: {
+    handleClick () {
+      console.log("handleClick");
+      this.$router.push({
+        path: "/carlight"
+      })
 
-methods: {
-  handleClick()
-  {
-    console.log("handleClick");
-    this.$router.push({
-      path: "/carlight"
-    })
+    },
+    handleClick1 () {
+      console.log("handleClick1")
+    },
+    handleClick2 () {
+      console.log("handleClick2");
 
-  }
-  handleClick1()
-  {
-    console.log("handleClick1");
+    },
+    handleClick3 () {
+      console.log("handleClick3");
 
-  }
-  handleClick2()
-  {
-    console.log("handleClick2");
+    },
+    handleClick4 () {
+      console.log("handleClick4");
 
-  }
-  handleClick3()
-  {
-    console.log("handleClick3");
-
-  }
-  handleClick4()
-  {
-    console.log("handleClick4");
+    }
 
   }
 
 }
+
+
 </script>
 
 <style></style>
