@@ -8,6 +8,26 @@ export default {
 }
 
 methods: {
+  handleClick(){
+    console.log("handleClick");
+
+  }
+  handleClick1(){
+    console.log("handleClick1");
+
+  }
+  handleClick2(){
+    console.log("handleClick2");
+
+  }
+  handleClick3(){
+    console.log("handleClick3");
+
+  }
+  handleClick4(){
+    console.log("handleClick4");
+
+  }
 
 }
 </script>
@@ -17,11 +37,11 @@ methods: {
     <div>this is index page</div>
     <div class="mb-4">
       <el-button>Default</el-button>
-      <el-button type="primary">Primary</el-button>
-      <el-button type="success">Success</el-button>
-      <el-button type="info">Info</el-button>
-      <el-button type="warning">Warning</el-button>
-      <el-button type="danger">Danger</el-button>
+      <el-button type="primary" @click="handleClick">Primary</el-button>
+      <el-button type="success" @click="handleClick1">Success</el-button>
+      <el-button type="info" @click="handleClick2">Info</el-button>
+      <el-button type="warning" @click="handleClick3">Warning</el-button>
+      <el-button type="danger" @click="handleClick4">Danger</el-button>
     </div>
     <div class="mb-4">
       <el-button plain>Plain</el-button>
