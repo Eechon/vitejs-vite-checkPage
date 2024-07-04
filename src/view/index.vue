@@ -10,6 +10,9 @@ export default {
 methods: {
   handleClick(){
     console.log("handleClick");
+    this.$router.push({
+      path: "/carlight"
+    })
 
   }
   handleClick1(){
