@@ -1,40 +1,3 @@
-<script>
-export default {
-  data () {
-    return {
-
-    }
-  },
-}
-
-methods: {
-  handleClick(){
-    console.log("handleClick");
-    this.$router.push({
-      path: "/carlight"
-    })
-
-  }
-  handleClick1(){
-    console.log("handleClick1");
-
-  }
-  handleClick2(){
-    console.log("handleClick2");
-
-  }
-  handleClick3(){
-    console.log("handleClick3");
-
-  }
-  handleClick4(){
-    console.log("handleClick4");
-
-  }
-
-}
-</script>
-
 <template>
   <div class="basic">
     <div>this is index page</div>
@@ -57,5 +20,47 @@ methods: {
 
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+
+    }
+  },
+}
+
+methods: {
+  handleClick()
+  {
+    console.log("handleClick");
+    this.$router.push({
+      path: "/carlight"
+    })
+
+  }
+  handleClick1()
+  {
+    console.log("handleClick1");
+
+  }
+  handleClick2()
+  {
+    console.log("handleClick2");
+
+  }
+  handleClick3()
+  {
+    console.log("handleClick3");
+
+  }
+  handleClick4()
+  {
+    console.log("handleClick4");
+
+  }
+
+}
+</script>
 
 <style></style>
