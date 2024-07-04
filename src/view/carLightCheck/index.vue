@@ -21,6 +21,7 @@
 
 .middle {
   margin-top: 60px;
+  height: 100vh-60px;
   background-color: pink;
 }
 </style>
