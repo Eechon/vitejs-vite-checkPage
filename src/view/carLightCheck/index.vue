@@ -18,10 +18,12 @@ export default {
 
 <style>
 .container {
-  /* position: relative; */
   width: 100%;
   height: 100%;
   background-color: #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .top {
