@@ -1,6 +1,11 @@
 <template>
   <div class="container">
     <div class="top">
+      <div class="logo">
+        <div class="imgwrap">
+          <img src="../../image/logo.png" alt="">
+        </div>
+      </div>
     </div>
     <div class="middle">this is carlight page</div>
   </div>
@@ -18,24 +23,32 @@ export default {
 
 <style>
 .container {
-  width: 100%;
-  height: 100%;
+  width: 100vh;
+  height: 100vh;
   background-color: #999;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  .top {
+    height: 60px;
+    width: 100%;
+    background-color: #ff5a01;
+  }
+
+  .middle {
+    width: 100%;
+    background-color: pink;
+  }
 }
 
-.top {
+.logo {
   height: 60px;
-  width: 100%;
-  background-color: #ff5a01;
-}
+  width: 120px;
 
-.middle {
-  margin-top: 60px;
-  height: 100vh-60px;
-  width: 100%;
-  background-color: pink;
+  .imgwrap {
+    height: 100%;
+    width: 100%;
+  }
 }
 </style>
