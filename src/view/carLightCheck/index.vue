@@ -43,12 +43,12 @@ export default {
 }
 
 .logo {
-  height: 60px;
-  width: 120px;
+  height: 2rem;
 
   .imgwrap {
     height: 100%;
     width: 100%;
+    display: flex;
   }
 }
 </style>
